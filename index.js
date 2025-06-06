@@ -49,5 +49,5 @@ app.post('/send-email', async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server is running at http://localhost:${PORT}`);
+  console.log(`Server is running at http://localhost:${port}`);
 });
