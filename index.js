@@ -49,7 +49,7 @@ app.post('/send-email', async (req, res) => {
 });
 
 app.get('/',(req,res)=>{
-  res.send("hell krushna");
+  res.send("hello from krushna");
 })
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
